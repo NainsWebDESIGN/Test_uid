@@ -17,4 +17,3 @@ import { UUID } from "angular2-uuid";
 ```javascript
 let uuid = UUID.UUID();
 ```
-"# Test_uid" 
