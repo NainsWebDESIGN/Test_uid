@@ -8,12 +8,8 @@ npm install angular2-uuid --save
 
 1. 導入
 
-```javascript
-import { UUID } from "angular2-uuid";
-```
+`import { UUID } from "angular2-uuid";`
 
 2.使用
 
-```javascript
-let uuid = UUID.UUID();
-```
+`let uuid = UUID.UUID();`
