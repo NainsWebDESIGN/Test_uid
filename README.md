@@ -4,12 +4,14 @@
 npm install angular2-uuid --save
 ```
 
-### 使用方式
+### 導入
 
-1. 導入
+```javascript
+import { UUID } from "angular2-uuid";
+```
 
-`import { UUID } from "angular2-uuid";`
+### 使用
 
-2.使用
-
-`let uuid = UUID.UUID();`
+```javascript
+let uuid = UUID.UUID();
+```
