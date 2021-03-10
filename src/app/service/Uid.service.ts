@@ -6,4 +6,7 @@ import { UUID } from 'angular2-uuid';
 export class UidService {
     uid: any = ''
     constructor() { this.uid = UUID.UUID(); }
+    getID() {
+        this.uid = UUID.UUID();
+    }
 }

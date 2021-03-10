@@ -8,8 +8,13 @@ import { UidService } from '@service/Uid.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  uuid = [];
   constructor(private Uid: UidService) { }
+  edit() {
+    this.Uid.getID();
+    this.uuid.push(this.Uid.uid);
+  }
   ngOnInit() {
-    console.log(this.Uid.uid);
+    this.uuid.push(this.Uid.uid);
   }
 }
